@@ -1,0 +1,54 @@
+{
+    "name": "LevelEditorControls",
+    "maps": [
+        {
+            "name": "LevelEditorMap",
+            "id": "4a47f5b6-d471-421d-809f-a7f2b984e83b",
+            "actions": [
+                {
+                    "name": "Select",
+                    "type": "Button",
+                    "id": "2cba49c4-6622-4e58-903b-41e034a35580",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Deselect",
+                    "type": "Button",
+                    "id": "88bae7fb-65b5-420d-84d9-9fedb3d9eca1",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "f15e9f03-24f3-4fac-a802-2cbd6835ab57",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Select",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f575d983-52fd-4644-b537-bddba44f8791",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Deselect",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
